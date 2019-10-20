@@ -40,7 +40,7 @@ class Song
   
   def genre=(genre)
     @genre = genre
-    genre.
+    genre.save
   end
   
   def genre
