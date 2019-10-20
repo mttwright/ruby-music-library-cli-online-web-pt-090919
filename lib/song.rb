@@ -69,7 +69,12 @@ class Song
     genre = x[2].gsub(/.mp3/, "")
     
     a = self.find_or_create_by_name(song)
-    b = 
+    b = Artist.create(artist)
+    c = Genre.create(genre)
+    
+    a.artist=(b)
+    a.genre=(c)
+    a
   end
     
   
