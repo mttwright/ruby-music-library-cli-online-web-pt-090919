@@ -17,7 +17,10 @@ class MusicLibraryController
     puts "What would you like to do?"
     
     x = gets
-    binding.pry
+    
+    while x != "exit"
+      call
+    end
   end
   
 end
