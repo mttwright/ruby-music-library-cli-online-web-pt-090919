@@ -11,6 +11,7 @@ class MusicImporter
   
   def files
     dir = Dir.open(@path)
+    binding.pry
   end
   
 end
