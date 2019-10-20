@@ -9,6 +9,7 @@ class MusicImporter
   end
   
   def files
+    @path.file.open
   end
   
 end
