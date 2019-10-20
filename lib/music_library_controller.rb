@@ -27,7 +27,6 @@ class MusicLibraryController
     x = Song.all.sort do |a, b|
       a.name <=> b.name
     end
-    binding.pry
   end
   
   
