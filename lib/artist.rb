@@ -1,4 +1,4 @@
-require "environment.rb"
+require_relative "../environment.rb"
 
 class Artist
   
