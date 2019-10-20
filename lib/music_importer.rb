@@ -5,5 +5,6 @@ class MusicImporter
   end
   
   def path
+  end
   
 end
