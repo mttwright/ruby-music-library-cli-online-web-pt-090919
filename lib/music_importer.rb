@@ -13,4 +13,6 @@ class MusicImporter
     dir = Dir.open(@path).children
   end
   
+  def import
+  
 end
