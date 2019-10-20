@@ -1,3 +1,4 @@
+require "pry"
 class MusicImporter
   
   def initialize(path)
@@ -10,6 +11,7 @@ class MusicImporter
   
   def files
     file = File.open(@path)
+    binding.pry
   end
   
 end
