@@ -8,4 +8,6 @@ class MusicImporter
     @path
   end
   
+  def files
+  
 end
