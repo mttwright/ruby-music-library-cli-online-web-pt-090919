@@ -10,8 +10,7 @@ class MusicImporter
   end
   
   def files
-    file = File.open(@path)
-    binding.pry
+    dir = Dir.open
   end
   
 end
