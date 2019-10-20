@@ -22,7 +22,7 @@ class Artist
   end
   
   def save
-    @@all.push(self)
+    @@all.push(self) unless self.all.include?(self)
   end
   
   def self.create(name)
