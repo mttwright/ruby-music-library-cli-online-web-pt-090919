@@ -18,7 +18,7 @@ class Genre
   end
   
   def save
-    @@all.push(self) unless self.all.include?(self)
+    @@all.push(self) unless @@all.include?(self)
   end
   
   def self.create(name)
