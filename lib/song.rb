@@ -66,6 +66,7 @@ class Song
     x = filename.split(" - ")
     song = x[0]
     artist = x[1]
+    genre = x[2].
     binding.pry
   end
     
