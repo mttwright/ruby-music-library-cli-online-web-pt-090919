@@ -10,7 +10,7 @@ class MusicImporter
   end
   
   def files
-    dir = Dir.open
+    dir = Dir.open(@path)
   end
   
 end
