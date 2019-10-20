@@ -9,7 +9,7 @@ class MusicImporter
   end
   
   def files
-    File.expand(@path)
+    File.expand_path(@path)
   end
   
 end
