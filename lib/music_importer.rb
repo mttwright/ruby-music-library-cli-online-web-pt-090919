@@ -10,7 +10,7 @@ class MusicImporter
   end
   
   def files
-    dir = Dir.open(@path)
+    dir = Dir.open(@path).children
     binding.pry
   end
   
