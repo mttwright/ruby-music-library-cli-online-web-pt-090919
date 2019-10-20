@@ -73,7 +73,6 @@ class Song
     y.genre=(genre)
     
     y
-    binding.pry
   end
     
   
