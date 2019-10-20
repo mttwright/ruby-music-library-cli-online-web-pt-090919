@@ -6,4 +6,7 @@ module Concerns::Findable
     end
   end
   
+  def find_or_create_by_name(name)
+    
+  
 end
