@@ -9,7 +9,7 @@ class MusicImporter
   end
   
   def files
-    File.new(@path).
+    File.open(@path)
   end
   
 end
