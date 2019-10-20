@@ -47,6 +47,8 @@ class Song
   def genre
     @genre
   end
+  
+  
     
   
 end
