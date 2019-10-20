@@ -66,7 +66,7 @@ class Song
     x = filename.split(" - ")
     song = x[0]
     artist = x[1]
-    genre = x[2].
+    genre = x[2].gsub(/.mp3/, "")
     binding.pry
   end
     
