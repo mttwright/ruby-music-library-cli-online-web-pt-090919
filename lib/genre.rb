@@ -26,13 +26,6 @@ class Genre
     x
   end
   
-  def add_song(song)
-    unless @songs.include?(song) || song.genre
-      song.genre = self
-      @songs.push(song)
-    end
-  end
-  
   def songs
     @songs
   end
