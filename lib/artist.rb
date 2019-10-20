@@ -1,4 +1,4 @@
-
+require "lib/Concerns/findable.rb"
 
 class Artist
   
