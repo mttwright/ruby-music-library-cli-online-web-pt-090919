@@ -18,6 +18,3 @@ class MusicLibraryController
   end
   
 end
-
-x = MusicLibraryController.new
-x.call
