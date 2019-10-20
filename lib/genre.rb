@@ -32,7 +32,12 @@ class Genre
   end
   
   def artists
-  
+    Song.all.select do |song|
+      song if song.genre == self
+    end.collect do |song|
+      song.artist
+    end.uniq
+  end
   
   
   
