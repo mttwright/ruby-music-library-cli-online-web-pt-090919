@@ -82,6 +82,7 @@ class MusicLibraryController
     
     x = x.sort do |a, b|
       a.name <=> b.name
+    end
   end
   
   
