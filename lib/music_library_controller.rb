@@ -72,6 +72,12 @@ class MusicLibraryController
   end
   
   def list_songs_by_genre
+    puts "Please enter the name of a genre:"
+    
+    genre = gets.chomp
+    
+    x = Song.all.select do |song|
+      song.genre.name == genre
   end
   
   
