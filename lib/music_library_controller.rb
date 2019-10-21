@@ -57,11 +57,16 @@ class MusicLibraryController
     puts "Please enter the name of an artist:"
     
     name = gets.chomp
+    
     x = Song.all.select do |song|
       song.artist.name == name
     end
     
-    x.
+    x = x.sort do |a, b|
+      a.name <=> b.name
+    end
+    
+    x.each_with_index do |song, num|
     
   end
   
