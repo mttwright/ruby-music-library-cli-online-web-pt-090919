@@ -78,6 +78,10 @@ class MusicLibraryController
     
     x = Song.all.select do |song|
       song.genre.name == genre
+    end
+    
+    x = x.sort do |a, b|
+      a.name <=> b.name
   end
   
   
