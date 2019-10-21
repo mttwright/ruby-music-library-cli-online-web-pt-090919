@@ -34,7 +34,10 @@ class MusicLibraryController
   end
   
   def list_artists
-    
+    x = Artist.all.sort do |a, b|
+      a.name <=> b.name
+    end
+  end
   
   
   
