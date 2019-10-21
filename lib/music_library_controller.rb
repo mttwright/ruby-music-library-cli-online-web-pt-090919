@@ -31,8 +31,10 @@ class MusicLibraryController
     x.each_with_index do |song, num|
       puts "#{num + 1}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
     end
-    
   end
+  
+  def list_artists
+    
   
   
   
