@@ -61,6 +61,8 @@ class MusicLibraryController
       song.artist.name == name
     end
     
+    x.
+    
   end
   
   
