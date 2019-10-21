@@ -58,7 +58,8 @@ class MusicLibraryController
     
     name = gets.chomp
     x = Song.all.select do |song|
-      song.
+      song.artist.name == name
+    end
     
   end
   
