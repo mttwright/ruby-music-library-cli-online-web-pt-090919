@@ -84,8 +84,8 @@ class MusicLibraryController
       a.name <=> b.name
     end
     
-    x.each_with_index do |genre, num|
-      puts "#{num + 1}. #{#{genre.name}"
+    x.each_with_index do |song, num|
+      puts "#{num + 1}. #{song.genre.name} - #{song.name}"
     end
   end
   
