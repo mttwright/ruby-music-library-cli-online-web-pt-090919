@@ -94,7 +94,10 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     i = gets.chomp.to_i
     
-    x = self.list_songs
+    x = Song.all.sort do |a, b|
+      a.name <=> b.name
+    end
+    
     puts "Playing #{x[i - 1].name} by #{x[i - 1].artist.name}"
   end
   
