@@ -20,6 +20,16 @@ class MusicLibraryController
     
     if x == "list songs"
       self.list_songs
+    elsif x == "list artists"
+      self.list_artists
+    elsif x == "list genres"
+      self.list_genres
+    elsif x == "list artist"
+      self.list_songs_by_artist
+    elsif x == "list genre"
+      self.list_songs_by_genre
+    elsif x == "play song"
+      self.play_song
     end
     
     unless x == "exit"
