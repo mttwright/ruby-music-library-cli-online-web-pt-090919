@@ -18,6 +18,10 @@ class MusicLibraryController
     
     x = gets.chomp
     
+    if x == "list songs"
+      self.list_songs
+    end
+    
     unless x == "exit"
       call
     end
